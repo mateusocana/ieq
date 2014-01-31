@@ -1,0 +1,182 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+button,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+input,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 - Older Browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Selected Text */
+::-moz-selection {
+  background: #fcce20;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background: #fcce20;
+  color: #ffffff;
+  text-shadow: none;
+}
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.btn {
+  width: 25.43859649122807%;
+  height: auto;
+  background: #fcce20;
+  margin: 30% auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 33px;
+  color: #ffffff;
+  font: 22px Lato;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border-bottom: 3px solid #dcb001;
+  box-shadow: inset 1px 3px 7px #dcb001, -1px 5px 10px #e8e8e8;
+}
+.btn:active,
+.btn:hover {
+  box-shadow: inset 1px 3px 7px #fcce20, -1px 5px 10px #e8e8e8;
+  box-shadow: none;
+  border-bottom: 3px solid #fcce20;
+  background: #dcb001;
+  color: #ffffff;
+  -webkit-transition: all 450ms ease 5ms;
+  -moz-transition: all 450ms ease 5ms;
+  transition: all 450ms ease 5ms;
+  cursor: pointer;
+}
+body {
+  background: #e8e8e8;
+}
