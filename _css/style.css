@@ -89,6 +89,11 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+/* Flexible image */
+img {
+  max-width: 100%;
+  height: auto;
+}
 /* HTML5 - Older Browsers */
 article,
 aside,
@@ -133,6 +138,24 @@ table {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: "Lato";
+  color: #333;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
 /* Selected Text */
 ::-moz-selection {
   background: #fcce20;
@@ -144,39 +167,13 @@ table {
   color: #ffffff;
   text-shadow: none;
 }
-header {
-  max-width: 1140px;
+address {
+  background: black;
+  line-height: 30px;
+}
+address p {
+  width: 940px;
   margin: 0 auto;
-}
-.btn {
-  width: 25.43859649122807%;
-  height: auto;
-  background: #fcce20;
-  margin: 30% auto;
-  padding: 20px;
-  text-align: center;
-  line-height: 33px;
+  text-align: left;
   color: #ffffff;
-  font: 22px Lato;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  border-bottom: 3px solid #dcb001;
-  box-shadow: inset 1px 3px 7px #dcb001, -1px 5px 10px #e8e8e8;
-}
-.btn:active,
-.btn:hover {
-  box-shadow: inset 1px 3px 7px #fcce20, -1px 5px 10px #e8e8e8;
-  box-shadow: none;
-  border-bottom: 3px solid #fcce20;
-  background: #dcb001;
-  color: #ffffff;
-  -webkit-transition: all 450ms ease 5ms;
-  -moz-transition: all 450ms ease 5ms;
-  transition: all 450ms ease 5ms;
-  cursor: pointer;
-}
-body {
-  background: #e8e8e8;
 }
