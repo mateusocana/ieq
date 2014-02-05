@@ -149,14 +149,51 @@
                </div>
 
             <div class="eventos-da-semana">
-               dia/mes/ano
+               <div class="datas">
+                  <h4 class="title-eventos">Terça</h4>
+                     <p>Não perca os cultos desta semana, teremos hoje a presença do pastor Sidinei trazendo seus conhecimentos e nos abençoando com a graça de Deus.</p>
+
+                     <em class="date">00/00/2014</em>
+               </div>
+
+               <div class="datas">
+                  <h4 class="title-eventos">Quarta</h4>
+                     <p>Não perca os cultos desta semana, teremos hoje a presença do pastor Sidinei trazendo seus conhecimentos e nos abençoando com a graça de Deus.</p>
+
+                     <em class="date">00/00/2014</em>
+               </div>
+
+               <div class="datas">
+                  <h4 class="title-eventos">Quinta</h4>
+                     <p>Não perca os cultos desta semana, teremos hoje a presença do pastor Sidinei trazendo seus conhecimentos e nos abençoando com a graça de Deus.</p>
+
+                     <em class="date">00/00/2014</em>
+               </div>
+
+               <div class="datas">
+                  <h4 class="title-eventos">Sexta</h4>
+                     <p>Não perca os cultos desta semana, teremos hoje a presença do pastor Sidinei trazendo seus conhecimentos e nos abençoando com a graça de Deus.</p>
+
+                     <em class="date">00/00/2014</em>
+               </div>
             </div><!-- /eventos da semana -->
+
+            <div class="fb">
+               <h5 class="fb-title">Curta nossa Fan Page</h5>
+
+               <div class="fb-like-box" data-href="https://www.facebook.com/pages/International-Church-of-the-Foursquare-Gospel/106236119407288?rf=108188135875433" data-width="300" data-height="335" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+            </div>
         </div>
 
+         <div class="publicidade">
+            <h1 class="title">Publicidade</h1>
 
+               <div class="banner">
+                  <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               </div>
+         </div>
 
-
-
+         <h1 class="title">Congregações</h1>
 
 
 
@@ -172,7 +209,7 @@
             <script type="text/javascript">
                 var date = new Date();
                 document.write(date.getFullYear());
-            </script> | Todos Direitos Reservados a <a href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys.">Flecksys.</a>
+            </script> | Todos Direitos Reservados a <a href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys e Ocañadesign.">Flecksys & Ocañadesign.</a>
          </small> -->
       </footer><!--/footer-->
 
@@ -181,6 +218,15 @@
       <script src="_js/scripts.js"></script>
       <script src="_js/cycle.js"></script>
       <script src="_js/cycle_function.js"></script>
+
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=159788717565753";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
       <!-- google analytics -->
       <!--<script>
