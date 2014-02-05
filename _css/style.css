@@ -321,10 +321,6 @@ nav ul li a:hover {
   left: 120px;
 }
 
-/*========================================================
-   slide
-========================================================*/
-
 .home-slide {
   width: 100%;
   height: 400px;
@@ -415,6 +411,99 @@ nav ul li a:hover {
   float: right;
   top: 156px;
   text-indent: -9999px;
+}
+
+.content {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 22px;
+  color: #333333;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  font-weight: 400;
+}
+
+body {
+  height: 3000px !important;
+}
+
+.carousel li {
+  display: inline-table;
+  width: 300px;
+  height: 200px;
+  background: #333333;
+  margin-right: 19px;
+  margin-bottom: 20px;
+}
+
+.carousel li img {
+  width: 300px;
+  height: 200px;
+}
+
+#bug {
+  position: absolute;
+}
+
+.fotos li {
+  display: inline-table;
+  width: 300px;
+  height: 200px;
+  background: #333333;
+  margin-right: 19px;
+  margin-bottom: 20px;
+}
+
+.fotos li img {
+  width: 300px;
+  height: 200px;
+}
+
+.banner {
+  height: 150px;
+  background: #333333;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.banner img {
+  clear: both;
+  margin-top: -10px;
+  width: 940px;
+  height: 150px;
+}
+
+.btn {
+  background: #874ca0;
+}
+
+.right {
+  float: right;
+}
+
+button {
+  height: auto;
+  line-height: 40px;
+  background: #874ca0;
+  border-bottom: 3px solid #693c7d;
+  text-align: center;
+  padding: 0 7px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #693c7d;
+  border-bottom: 3px solid #874ca0;
+}
+
+button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
 }
 
 input,

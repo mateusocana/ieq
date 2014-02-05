@@ -55,7 +55,7 @@
 
    <!-- header -->
    <header>
-      <section class="topo">
+      <div class="topo">
          <a href="index.php" title="IEQ - Igreja do Evangelho Quadrangular"><img src="_images/logo-ieq.png" alt="Logo IEQ" title="Logo IEQ" class="logo-ieq"></a>
 
       <div class="localidade">
@@ -78,12 +78,12 @@
                <option value="">Filial -5</option>
                <option value="">Filial -6</option>
             </select>
-            <input type="submit" class="localidade-btn" value="Entrar" title="Entrar">
+            <input type="submit" class="localidade-btn" value="Ok" title="Entrar">
          </form>
       </div><!-- /form -->
 
       <img src="_images/logo-bispo.png" alt="Logo IEQ Bispo Sidnei de Mello" class="logo-bispo">
-      </section>
+      </div>
 
          <nav>
             <ul>
@@ -114,6 +114,44 @@
       </div>
    </div><!-- slide -->
 
+   <section class="content">
+      <h1 class="title">Últimos Eventos</h1>
+         <div class="carousel">
+            <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+            <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+            <li id="bug"><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+         </div>
+
+         <button class="right">
+            <a href="#" title="Ver Todos desta categoria">Ver Todos</a>
+         </button>
+
+
+         <section class="fotos">
+            <h2 class="title">Últimas Fotos</h2>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li id="bug"><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li id="bug"><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+         </section>
+
+         <button class="right both">
+            <a href="#" title="Ver Todas desta categoria">Ver Todas</a>
+         </button>
+
+         <div class="comunicados">
+            <h3 id="teste" class="title">Comunicados</h3>
+
+               <div class="banner">
+                  <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               </div>
+
+            <div class="eventos-da-semana">
+               dia/mes/ano
+            </div><!-- /eventos da semana -->
+        </div>
 
 
 
@@ -127,17 +165,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+   </section>
 
       <footer>
          <!-- <small class="copy">&copy; Copyright -
