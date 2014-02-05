@@ -1,0 +1,92 @@
+/*========================================================
+   slide
+========================================================*/
+.home-slide {
+   width: 100%;
+   height: 400px;
+   margin-top: 50px;
+   background-image:-moz-radial-gradient(50% 50%,circle farthest-side,rgb(79,79,79) 0%,rgb(31,31,31) 100%);
+   background-image:-webkit-gradient(radial,50% 50%,0,50% 50%,850,color-stop(0, rgb(79,79,79)),color-stop(1, rgb(31,31,31)));
+   background-image:-webkit-radial-gradient(50% 50%,circle farthest-side, rgb(79,79,79) 0%,rgb(31,31,31) 100%);
+   background-image:-ms-radial-gradient(50% 50%,circle farthest-side, rgb(79,79,79) 0%,rgb(31,31,31) 100%);
+   background-image:radial-gradient(50% 50%,circle farthest-side, rgb(79,79,79) 0%,rgb(31,31,31) 100%);
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Style=2)";
+   filter:progid:DXImageTransform.Microsoft.Alpha(Style=2);
+}
+
+.slide {
+   width: 940px;
+   height: 400px;
+   margin: 0 auto;
+   list-style: none;
+   overflow: hidden;
+
+   img {
+      width: 940px;
+      height: 400px
+   }
+
+   ul {
+    list-style: none;
+   }
+}
+
+.pager-menu {
+   width: 260px;
+   height: 8px;
+   margin: 0 auto;
+   position: relative;
+   z-index: 5;
+   top: -20px;
+}
+.pager a {
+   margin-left: 5px;
+   text-decoration: none;
+   float: left;
+   color: @white;
+   background: @white;
+   display: block;
+   width: 60px;
+   height: 8px;
+   overflow: hidden;
+}
+.pager a:hover{
+   background: @gray;
+   color: @gray;
+   overflow: hidden;
+}
+.pager a.activeSlide{
+   background: @yellow;
+   color: @yellow;
+}
+.pager a.activeSlide:hover{
+   background: @gray;
+   color: @gray;
+}
+
+.pager-right-left {
+      max-width: 1130px;
+      margin: 0 auto;
+   }
+
+.prev {
+   background: url(../_images/icons/arrow-left.png);
+   width: 85px;
+   height: 86px;
+   z-index: 10;
+   position: relative;
+   float: left;
+   top: 156px;
+   text-indent: -9999px;
+}
+
+.next {
+   background: url(../_images/icons/arrow-right.png);
+   width: 85px;
+   height: 86px;
+   z-index: 10;
+   position: relative;
+   float: right;
+   top: 156px;
+   text-indent: -9999px;
+}

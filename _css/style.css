@@ -1,4 +1,7 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400, 300");
+
 /* CSS Reset */
+
 html,
 body,
 div,
@@ -85,16 +88,21 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
+  outline: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
+
 /* Flexible image */
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 /* HTML5 - Older Browsers */
+
 article,
 aside,
 details,
@@ -108,17 +116,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -126,10 +138,12 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 *,
 *:before,
 *:after {
@@ -138,11 +152,13 @@ table {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
 html,
 button,
 input,
@@ -151,29 +167,298 @@ textarea {
   font-family: "Lato";
   color: #333;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
+  font-family: "Lato";
 }
+
 /* Selected Text */
+
 ::-moz-selection {
   background: #fcce20;
   color: #ffffff;
   text-shadow: none;
 }
+
 ::selection {
   background: #fcce20;
   color: #ffffff;
   text-shadow: none;
 }
+
+.chromeframe {
+  background: red;
+  text-align: center;
+  color: #fff;
+  padding: 1em 0;
+  margin: 5px 0;
+  font-size: 1.5em;
+}
+
 address {
   background: black;
+  height: auto;
   line-height: 30px;
 }
+
 address p {
   width: 940px;
   margin: 0 auto;
   text-align: left;
+  font-size: 1.2em;
   color: #ffffff;
+}
+
+.fone {
+  color: #fcce20;
+  padding-right: 1em;
+}
+
+.endereco {
+  color: #fcce20;
+  padding: 0 1em;
+}
+
+.login {
+  float: right;
+  color: #fcce20;
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
+}
+
+header img {
+  float: left;
+}
+
+.topo {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.logo-bispo {
+  position: relative;
+  left: 140px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: #fcce20;
+  clear: both;
+  position: relative;
+  top: 50px;
+}
+
+nav ul {
+  width: 940px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline;
+  position: relative;
+  left: -8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333333;
+  padding-right: 43px;
+  line-height: 50px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.home:before {
+  content: '';
+  border-style: solid solid solid;
+  border-color: transparent;
+  border-top-color: #000;
+  display: -moz-inline-box;
+  border-width: 6px 4px 0;
+  padding-top: 1px;
+  position: relative;
+  top: 15px;
+  left: 65px;
+}
+
+.galeria:before {
+  content: '';
+  border-style: solid solid solid;
+  border-color: transparent;
+  border-top-color: #000;
+  display: -moz-inline-box;
+  border-width: 6px 4px 0;
+  padding-top: 1px;
+  position: relative;
+  top: 15px;
+  left: 75px;
+}
+
+.atendimento:before {
+  content: '';
+  border-style: solid solid solid;
+  border-color: transparent;
+  border-top-color: #000;
+  display: -moz-inline-box;
+  border-width: 6px 4px 0;
+  padding-top: 1px;
+  position: relative;
+  top: 15px;
+  left: 120px;
+}
+
+/*========================================================
+   slide
+========================================================*/
+
+.home-slide {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 850, color-stop(0, #4f4f4f), color-stop(1, #1f1f1f));
+  background-image: -webkit-radial-gradient(50% 50%, circle farthest-side, #4f4f4f 0%, #1f1f1f 100%);
+  background-image: radial-gradient(50% 50%, circle farthest-side, #4f4f4f 0%, #1f1f1f 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Style=2)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Style=2);
+}
+
+.slide {
+  width: 940px;
+  height: 400px;
+  margin: 0 auto;
+  list-style: none;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 940px;
+  height: 400px;
+}
+
+.slide ul {
+  list-style: none;
+}
+
+.pager-menu {
+  width: 260px;
+  height: 8px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  top: -20px;
+}
+
+.pager a {
+  margin-left: 5px;
+  text-decoration: none;
+  float: left;
+  color: #ffffff;
+  background: #ffffff;
+  display: block;
+  width: 60px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.pager a:hover {
+  background: #e8e8e8;
+  color: #e8e8e8;
+  overflow: hidden;
+}
+
+.pager a.activeSlide {
+  background: #fcce20;
+  color: #fcce20;
+}
+
+.pager a.activeSlide:hover {
+  background: #e8e8e8;
+  color: #e8e8e8;
+}
+
+.pager-right-left {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.prev {
+  background: url(../_images/icons/arrow-left.png);
+  width: 85px;
+  height: 86px;
+  z-index: 10;
+  position: relative;
+  float: left;
+  top: 156px;
+  text-indent: -9999px;
+}
+
+.next {
+  background: url(../_images/icons/arrow-right.png);
+  width: 85px;
+  height: 86px;
+  z-index: 10;
+  position: relative;
+  float: right;
+  top: 156px;
+  text-indent: -9999px;
+}
+
+input,
+select {
+  font-size: 1.4em;
+  border: 1px solid #e8e8e8;
+  padding: 11px;
+  width: 295px;
+  position: relative;
+  left: 65px;
+  margin-bottom: 15px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.localidade {
+  width: 290px;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+#igreja {
+  width: 235px;
+}
+
+.localidade-btn {
+  width: 55px;
+  height: 41px;
+  background: #874ca0;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 3px solid #693c7d;
+  position: absolute;
+  left: 305px;
+  margin-top: 2px;
+}
+
+.localidade-btn:hover {
+  background: #693c7d;
+  border-bottom: 3px solid #874ca0;
+  cursor: pointer;
+  -webkit-transition: all 450ms ease 5ms;
+  transition: all 450ms ease 5ms;
 }
