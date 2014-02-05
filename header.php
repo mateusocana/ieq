@@ -8,6 +8,8 @@
 <head>
    <meta charset="UTF-8">
 
+   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+
    <title>IEQ - Igreja do Evangelho Quadrangular</title>
 
    <!-- metas tags -->
@@ -32,8 +34,6 @@
 
    <!-- styles -->
    <link rel="stylesheet" href="_css/style.css" type="text/css" media="screen">
-   <link rel="stylesheet" href="_css/form-structure.css" type="text/css" media="screen">
-   <link rel="stylesheet" href="_css/form-style.css" type="text/css" media="screen">
 
    <!-- favicon -->
    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -42,19 +42,19 @@
    <script src="_js/modernizr.js"></script>
 </head>
    <body>
-      <!--[if lt IE 6]><p class=chromeframe>Atenção! seu navegador é <em>muito antigo.</em> <a href="http://browsehappy.com/">Atualize para uma versão recente</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">Instale o Google Chrome Frame</a> para aproveitar todos os recursos deste site.</p><![endif]-->
+      <!--[if IE 9]><p class="chromeframe">Atenção! seu navegador é <em>muito antigo.</em> <a title="Atualizar meu navegador" href="http://browsehappy.com/">Atualize para uma versão recente</a> ou <a title="Instalar o Chrome Frame" href="http://www.google.com/chromeframe/?redirect=true&prefersystemlevel=true&hl=pt-BR">Instale o Google Chrome Frame</a> para aproveitar todos os recursos deste site.</p><![endif]-->
 
       <address>
          <p><b class="fone">Fone:</b> (00) 0000-0000<b class="endereco">Endereço:</b> Rua Engenheiro Annes Gualberto, 1886 - Centro - Tubarão/SC
 
-            <a href="#" title="Clique fazer login" class="login">Fazer login</a>
+            <a href="#" title="Clique para fazer login" class="login">Fazer login</a>
          </p>
       </address>
 
    <!-- header -->
    <header>
-      <section class="topo">
-         <img src="_images/logo-ieq.png" alt="Logo IEQ" title="Logo IEQ" class="logo-ieq">
+      <div class="topo">
+         <a href="index.php" title="IEQ - Igreja do Evangelho Quadrangular"><img src="_images/logo-ieq.png" alt="Logo IEQ" title="Logo IEQ" class="logo-ieq"></a>
 
       <div class="localidade">
          <form action="#">
@@ -76,12 +76,12 @@
                <option value="">Filial -5</option>
                <option value="">Filial -6</option>
             </select>
-            <input type="submit" class="localidade-btn" value="Entrar" title="Entrar">
+            <input type="submit" class="localidade-btn" value="Ok" title="OK">
          </form>
       </div><!-- /form -->
 
       <img src="_images/logo-bispo.png" alt="Logo IEQ Bispo Sidnei de Mello" class="logo-bispo">
-      </section>
+      </div>
 
          <nav>
             <ul>
@@ -91,5 +91,6 @@
                <li><a class="galeria" title="Galeria" href="#">Galeria</a></li>
                <li><a title="Cultos" href="#">Cultos</a></li>
                <li><a class="atendimento" title="Atendimento" href="#">Atendimento</a></li>
+            </ul>
          </nav>
    </header><!-- /header -->

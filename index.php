@@ -113,14 +113,7 @@
                   <li><img src="_images/slide/banner.jpg" alt=""></li>
                   <li><img src="_images/slide/banner.jpg" alt=""></li>
                   <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt="">
-
-            <button class="right bt">
-               <a href="#" title="Ver Todas desta categoria">Ver Todas</a>
-            </button>
-
-
-                  </li>
+                  <li><img src="_images/slide/banner.jpg" alt=""></li>
               </ul>
          </div>
          </section>
