@@ -515,33 +515,34 @@ nav ul li a:hover {
 }
 
 .publicidade {
-  clear: both;
   height: 240px;
 }
 
-.congregacoes {
-  width: 960px;
-  clear: both;
-  display: block;
-  position: relative;
-}
-
-.congregacoes ul {
-  position: absolute;
-  clear: both;
-}
-
-.congregacoes ul li {
-  width: 172px;
-  height: 105px;
-  background: #333333;
-  display: inline-table;
-  margin-right: 18px;
+.igrejas {
+  width: 940px;
+  height: 1000px;
+  background: #ccc;
+  overflow: hidden;
   margin-bottom: 20px;
 }
 
-.congregacoes ul li img {
+.igrejas ul {
+  display: inline;
+  float: left;
+  position: absolute;
+}
+
+.igrejas ul li {
+  display: block;
   width: 172px;
+  height: 105px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.igrejas ul li img {
+  width: 170px;
   height: 105px;
 }
 
@@ -622,18 +623,5 @@ select {
 }
 
 footer {
-  width: 100%;
-  height: 300px;
-  background: #333333;
-  position: relative;
-  top: 380px;
   clear: both;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.copy {
-  width: 940px !important;
-  margin: 0 auto;
 }

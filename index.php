@@ -94,28 +94,34 @@
                <div class="banner">
                   <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
                </div>
-         </div>
 
-         <div class="congregacoes">
-            <h1 class="title">Congregações</h1>
-               <ul>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-                  <li><img src="_images/slide/banner.jpg" alt=""></li>
-              </ul>
-         </div>
-         </section>
+
+               <div class="igrejas">
+                  <h1 class="title">Congregações</h1>
+
+                  <ul>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                  </ul>
+               </div>
+
+         <button class="right" id="both">
+            <a href="#" title="Ver Todas desta categoria">Ver Todas</a>
+         </button>
+      </div>
+</section>
 
 <?php include "footer.php";?>
