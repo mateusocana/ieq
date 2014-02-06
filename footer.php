@@ -1,11 +1,10 @@
       <footer>
-         <small class="copy">&copy; Copyright -
+         <section class="center">&copy; Copyright -
             <script type="text/javascript">
                 var date = new Date();
                 document.write(date.getFullYear());
             </script> | Todos Direitos Reservados a <a href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys e Ocañadesign.">Flecksys & Ocanadesign.</a>
-            dddd
-         </small>
+         </section>
       </footer><!--/footer-->
 
       <!-- javascript -->

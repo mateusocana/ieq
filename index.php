@@ -100,25 +100,25 @@
                   <h1 class="title">Congregações</h1>
 
                   <ul>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
-                     <li><img src="_images/slide/banner.jpg" alt="" title=""></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
+                     <li><a href="#"><img src="_images/slide/banner.jpg" alt="" title=""></a></li>
                   </ul>
                </div>
 
-         <button class="right" id="both">
+         <button class="right top">
             <a href="#" title="Ver Todas desta categoria">Ver Todas</a>
          </button>
       </div>
