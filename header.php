@@ -54,7 +54,7 @@
    <!-- header -->
    <header>
       <div class="topo">
-         <a href="index.php" title="IEQ - Igreja do Evangelho Quadrangular"><img src="_images/logo-ieq.png" alt="Logo IEQ" title="Logo IEQ" class="logo-ieq"></a>
+         <a href="index.php" title="IEQ - Igreja do Evangelho Quadrangular"><img src="_images/logo-ieq.png" alt="Logo IEQ" class="logo-ieq"></a>
 
       <div class="localidade">
          <form action="#">

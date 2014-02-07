@@ -1,5 +1,5 @@
 $(function(){
- 	$(".slide ul").cycle({
+ 	$(".slide ul, .banner ul").cycle({
  		fx:'fade',
  		speed: 3000,
  		timeout: 6500,

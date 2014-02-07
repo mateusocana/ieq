@@ -20,9 +20,11 @@
    <section class="content">
       <h1 class="title">Últimos Eventos</h1>
          <div class="carousel">
-            <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
-            <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
-            <li id="bug"><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+            <ul>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li id="bug"><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+            </ul>
          </div>
 
          <button class="right">
@@ -44,11 +46,24 @@
             <a href="#" title="Ver Todas desta categoria">Ver Todas</a>
          </button>
 
+         <section class="fotos">
+            <h2 class="title">Últimos Videos</h2>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+               <li id="bug"><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+         </section>
+
+         <button class="right">
+            <a href="#" title="Ver Todas desta categoria">Ver Todas</a>
+         </button>
+
          <div class="comunicados">
             <h3 id="teste" class="title">Comunicados</h3>
 
                <div class="banner">
-                  <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+                  <ul>
+                     <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+                  </ul>
                </div>
 
             <div class="eventos-da-semana">
@@ -92,7 +107,9 @@
             <h1 class="title">Publicidade</h1>
 
                <div class="banner">
-                  <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+                  <ul>
+                     <li><img src="_images/slide/banner.jpg" title="slide 1" alt=""></li>
+                  </ul>
                </div>
 
 
