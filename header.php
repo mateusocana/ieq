@@ -83,6 +83,7 @@
       <img src="_images/logo-bispo.png" alt="Logo IEQ Bispo Sidnei de Mello" class="logo-bispo">
       </div>
 
+         <!-- menu -->
          <nav>
             <ul>
                <li><a class="home" title="Home" href="#">Home</a></li>
@@ -92,5 +93,5 @@
                <li><a title="Cultos" href="#">Cultos</a></li>
                <li><a class="atendimento" title="Atendimento" href="#">Atendimento</a></li>
             </ul>
-         </nav>
+         </nav><!-- /menu -->
    </header><!-- /header -->

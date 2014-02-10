@@ -249,6 +249,8 @@ header img {
   left: 140px;
 }
 
+/* menu */
+
 nav {
   width: 100%;
   height: 50px;
@@ -321,6 +323,8 @@ nav ul li a:hover {
   left: 120px;
 }
 
+/* home */
+
 .home-slide {
   width: 100%;
   height: 400px;
@@ -331,6 +335,8 @@ nav ul li a:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Style=2)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Style=2);
 }
+
+/* slide - home */
 
 .slide {
   width: 940px;
@@ -640,6 +646,8 @@ footer .center {
   padding: 20px 0;
 }
 
+/* mapa do site - rodapé */
+
 .site-map {
   width: 300px;
   float: left;
@@ -678,6 +686,8 @@ footer .center {
   margin-right: 0;
 }
 
+/* redes sociais */
+
 .sociais {
   width: 139px;
   float: right;
@@ -700,6 +710,8 @@ footer .center {
 .sociais ul li img:hover {
   opacity: 0.7;
 }
+
+/* descrições e direitos autorais */
 
 .copy {
   clear: both;
