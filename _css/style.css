@@ -560,6 +560,11 @@ button {
   border-radius: 3px;
 }
 
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 button:hover {
   background: #693c7d;
   border-bottom: 3px solid #874ca0;
@@ -574,11 +579,6 @@ button:hover {
   font-size: 1.5em;
   text-decoration: none;
   float: left;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 input,

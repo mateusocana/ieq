@@ -46,9 +46,7 @@
 
       <address>
          <p><b class="fone">Fone:</b> (00) 0000-0000<b class="endereco">Endereço:</b> Rua Engenheiro Annes Gualberto, 1886 - Centro - Tubarão/SC
-
-            <a href="#" title="Clique para fazer login" class="login">Fazer login</a>
-         </p>
+            <a href="#" title="Clique para fazer login" class="login">Fazer login</a></p>
       </address>
 
    <!-- header -->
@@ -58,7 +56,7 @@
 
       <div class="localidade">
          <form action="#">
-            <select name="cidade" id="cidade" placeholder=">Selecione a cidade:">
+            <select name="cidade" id="cidade" required="required" placeholder=">Selecione a cidade:" title="Selecione a cidade por favor!">
                <option value="">São Leopoldo</option>
                <option value="">Porto Alegre</option>
                <option value="">Canoas</option>
@@ -67,7 +65,7 @@
                <option value="">Monte Negro</option>
             </select>
 
-            <select name="cidade" id="igreja" placeholder="Selecione a Igreja:">
+            <select name="cidade" id="igreja" required="required" placeholder="Selecione a Igreja:" title="Selecione a igreja por favor!">
                <option value="">Sede</option>
                <option value="">Filial -1</option>
                <option value="">Filial -2</option>
