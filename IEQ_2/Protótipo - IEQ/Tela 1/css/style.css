@@ -1,0 +1,524 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+/*========================================================
+  resete
+========================================================*/
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+}
+
+/*========================================================
+  body
+========================================================*/
+body {
+  font-family: 'Lato';
+  font-weight: 300;
+}
+
+/*========================================================
+  header
+========================================================*/
+header{
+  width:100%;
+  background:#E8E8E8;
+  float:left;
+  
+}
+
+header .logoieq{
+  float:left;
+  width: 230px;
+  height: 80px;
+  padding-top: 55px;
+}
+
+header .logoieq:hover{
+  opacity: 0.7;
+}
+
+header .logo{
+  float: right;
+  width: 200px;
+  height: 165px;
+  padding: 10px 0; /* padding-top: 50px */
+  margin-left: 0; /* -18% */
+}
+
+header .logo:hover{
+  opacity: 0.7;
+}
+
+.restrit{
+  margin:28px;
+  width:460px;
+  float:right;
+  height:130px;
+}
+
+input{
+  width: 117px;
+  color:#CCCCCC;
+  border: 1px solid white;
+  float:left;
+  padding:7px;
+  margin:10px;
+}
+
+input:focus{
+  border:1px solid #CCCCCC;
+}
+
+fieldset {
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  border:none;
+  color:#545454;
+}
+
+.btn{
+  background:#874CA0;
+  border-bottom:3px solid #693C7D;
+  border-radius: 5px;
+  width:80px;
+  height:35px;
+  float:right;
+  position: relative;
+  right:77px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+
+.btn:hover{
+  background:#693C7D;
+  border-bottom:3px solid #874CA0;
+  cursor:pointer;
+}
+
+.header-bottom{
+  background:url("../images/border-colors.gif");
+  float:left;
+  width:100%;
+  height:8px;
+}
+
+/*========================================================
+  section
+========================================================*/
+section{
+  width:940px;
+  margin:0 auto;
+}
+
+/*========================================================
+  wellcome
+========================================================*/
+.wellcome{
+  margin:70px 0;
+  float:left;
+  color:#525252;
+  font-weight:bold;
+  width:100%;
+}
+
+.hello{float:left;}
+
+.username{
+  /* float:left; */
+  color:#864C9F;
+  text-transform: uppercase;
+  /* margin-left:5px; */
+}
+
+.username:hover{
+  text-decoration: underline;
+}
+
+.btn-yellow{
+  background:#FCCE20;
+  border-bottom:3px solid #DAAE01;
+  border-radius: 5px;
+  width:80px;
+  height:35px;
+  float:right;
+  position: relative;
+  right:95px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+
+.btn-yellow:hover{
+  background:#DAAE01;
+  border-bottom:3px solid #FCCE20;
+  cursor:pointer;
+}
+
+.region{
+  float:right;
+  width:650px;
+}
+
+.church{
+  float:left;
+}
+
+.church fieldset{
+  margin:10px 0;
+  color:#545454;
+}
+
+.church select{
+  margin:0 10px;
+  background:#E8E8E8;
+  border:1px solid #FFFFFF; 
+  padding:5px;
+  width:258px;
+  color:#535353;
+}
+
+.church select:hover{
+ border:1px solid #FCCE20; 
+}
+
+/*========================================================
+  events
+========================================================*/
+.events{
+  text-transform: uppercase;
+  color:#333333;
+  font-weight: bold;
+  border-left: 6px solid #333333;
+  float:left;
+  padding: 1px 10px 2px 10px;
+}
+
+/*========================================================
+  slider
+========================================================*/
+.slider{
+  background:#7C7C7E;
+  width:940px;
+  height:400px;
+  float:left;
+  margin:10px 0;
+}
+
+.previous-icon{
+  position: relative;
+  top:175px;
+  left:10px;
+}
+
+.next-icon a{
+  position: relative;
+  top:90px;
+  left:840px;
+}
+
+/*========================================================
+  figure
+========================================================*/
+figure{
+  margin:10px 0;
+  width:220px;
+  height:360px;
+  float:left;
+  background:#7C7C7E;
+}
+
+.photo{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  top:20px;
+  text-align: center;
+}
+
+.parson{
+  background-color:rgba(252,206,32,0.7);
+  width:220px;
+  height:160px;
+  float:left;
+  z-index: 10;
+  position: relative;
+  top:181px;
+}
+
+.parson-name{
+  text-transform: uppercase;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top:10px;
+}
+
+.parson-desc{
+  color:#646472;
+  font-size: 15px;
+  position: relative;
+  top:10px;
+  padding: 15px;
+}
+
+.parson-info{
+  color:#ED1746;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding:5px 15px;
+}
+
+/*========================================================
+  video
+========================================================*/
+
+.video{
+  width:700px;
+  height:360px;
+  background:#7C7C7E;
+  float:right;
+  margin-top:10px;
+}
+
+.video-txt{
+text-transform: uppercase;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top:150px;
+}
+
+/*========================================================
+  other slider
+========================================================*/
+
+.other-slider{
+  background:#7C7C7E;
+  width:940px;
+  height:400px;
+  float:left;
+  margin:10px 0;
+}
+
+.other-slider-txt{
+  text-transform: uppercase;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top:190px;
+}
+
+/*========================================================
+  notices
+========================================================*/
+.notices{
+  width:300px;
+  height:310px;
+  float:left;
+  background:#7C7C7E;
+  margin-right:20px;
+  margin-bottom:50px;
+}
+
+.notices-txt{
+  text-transform: uppercase;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top:150px;
+}
+
+/*========================================================
+  video-text
+========================================================*/
+
+.video-text{
+  width:300px;
+  height:310px;
+  float:left;
+  background:#7C7C7E;
+  margin-right:20px;
+  margin-bottom:50px;
+}
+
+.video-text-txt{
+  text-transform: uppercase;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top:150px;
+}
+
+/*========================================================
+  question & acess
+========================================================*/
+
+.question-acess{
+  width:300px;
+  height:310px;
+  float:left;
+  margin-bottom:50px;
+}
+
+.question{
+  width:300px;
+  height:146px;
+  float:left;
+  background:#7C7C7E;
+  margin-bottom:20px;
+}
+
+.question-txt{
+  text-transform: uppercase;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top:20px;
+}
+
+.acess{
+  width:300px;
+  height:146px;
+  float:left;
+  background:#7C7C7E;
+}
+
+.acess-txt{
+  text-transform: uppercase;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top:60px;
+}
+
+.btn-qtn{
+  background:#F5C503;
+  border-bottom:3px solid #DAAE01;
+  border-radius: 5px;
+  width:127px;
+  height:40px;
+  float:right;
+  position: relative;
+  right:75px;
+  font-weight:bold;
+  color:#FFFFFF;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  top:70px;
+}
+
+.btn-qtn:hover{
+  background:#DAAE01;
+  border-bottom:3px solid #FCCE20;
+  cursor:pointer;
+}
+
+/*========================================================
+  footer
+========================================================*/
+
+
+footer{
+  width:100%;
+  height:139px;
+  background:#E8E8E8;
+  float:left;
+}
+
+.copyright{
+  color:#545454;
+  float:left;
+  margin-top:20px;
+}
+
+.phone{
+  margin-top:20px;
+  float:right;
+  COLOR:#79797E;
+}
+
+.desenveloper{
+  color:#525252;
+  float:left;
+}
+
+.desenveloper p{
+  color:blue;
+}
+
+.argenc{
+  float:left;
+  margin-left:5px;
+  color:#854C9F;
+}
+
+.argenc a{
+  text-decoration: none;
+}
+.footer-top{
+  float:left;
+  width:940px;
+  padding-bottom:10px;
+  border-bottom:1px solid #79797E;
+}
+
+.footer-bottom{
+  margin-top:10px;
+  float:left;
+  width:940px;
+}
+
+.social{
+  float:right;
+  width:400px;
+  height:48px;
+}
+
+.twitter-icon{
+  background:url("../images/twitter-icon.png");
+  width:48px;
+  height:48px;
+  display:inline-table;
+  float:right;
+  margin-right: 8px;
+}
+
+.twitter-icon:hover{
+  opacity: 0.7;
+}
+
+.youtube-icon{
+  background:url("../images/youtube-icon.png");
+  width:48px;
+  height:48px;
+  display:inline-table;
+  float:right;
+  margin-right: 8px;
+}
+
+.youtube-icon:hover{
+  opacity: 0.7;
+}
+.facebook-icon{
+  background:url("../images/facebook-icon.png");
+  width:48px;
+  height:48px;
+  display:inline-table;
+  float:right;
+}
+
+.facebook-icon:hover{
+  opacity: 0.7;
+}

@@ -14,7 +14,6 @@ figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, su
 }
 
 /* Flexible image */
-
 img {
    max-width: 100%;
    height: auto;
@@ -29,22 +28,6 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
-
-// Aply Transition effects in elements with :hover
-.transitions (@hover: all 450ms ease 5ms) {
-	-webkit-transition: @hover;
-	    -moz-transition: @hover;
-	        transition: @hover;
-}
-
-// Apply a rounded edge on the element
-.radius (@corner: 4px) {
-	-webkit-border-radius: @corner;
-		-moz-border-radius: @corner;
-			-o-border-radius: @corner;
-				border-radius: @corner;
-}
-
 
 // Apply a natural box layout model to all elements
 *, *:before, *:after {
@@ -63,28 +46,3 @@ body { margin: 0; padding: 0; font-size: 62.5%; font-family: "Lato";}
 ::selection {background: @yellow; color: @white; text-shadow: none;}
 
 .chromeframe{background:red;text-align:center;color:#fff;padding:1em 0;margin:5px 0; font-size: 1.5em;}
-
-// .btn {
-// 	width: 25.43859649122807%;
-// 	height: auto;
-// 	background: @yellow;
-// 	margin: 30% auto;
-// 	padding: 20px;
-// 	text-align: center;
-// 	line-height: 33px;
-// 	color: @white;
-// 	font: 22px Lato;
-// 	.radius;
-// 	border-bottom: 3px solid @yellow-strong;
-// 	box-shadow: inset 1px 3px 7px @yellow-strong, -1px 5px 10px @gray;
-
-// 	&:active, &:hover {
-// 		box-shadow: inset 1px 3px 7px @yellow, -1px 5px 10px @gray;
-// 		box-shadow: none;
-// 		border-bottom: 3px solid @yellow;
-// 		background: @yellow-strong;
-// 		color: @white;
-// 		.transitions;
-// 		cursor: pointer;
-// 	}
-// }

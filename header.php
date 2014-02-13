@@ -42,11 +42,11 @@
    <script src="_js/modernizr.js"></script>
 </head>
    <body>
-      <!--[if IE 9]><p class="chromeframe">Atenção! seu navegador é <em>muito antigo.</em> <a title="Atualizar meu navegador" href="http://browsehappy.com/">Atualize para uma versão recente</a> ou <a title="Instalar o Chrome Frame" href="http://www.google.com/chromeframe/?redirect=true&prefersystemlevel=true&hl=pt-BR">Instale o Google Chrome Frame</a> para aproveitar todos os recursos deste site.</p><![endif]-->
+      <!--[if IE 8]><p class="chromeframe">Atenção! seu navegador é <em>muito antigo.</em> <a title="Atualizar meu navegador" href="http://browsehappy.com/">Atualize para uma versão recente</a> ou <a title="Instalar o Chrome Frame" href="http://www.google.com/chromeframe/?redirect=true&prefersystemlevel=true&hl=pt-BR">Instale o Google Chrome Frame</a> para aproveitar todos os recursos deste site.</p><![endif]-->
 
       <address>
-         <p><b class="fone">Fone:</b> (00) 0000-0000<b class="endereco">Endereço:</b> Rua Engenheiro Annes Gualberto, 1886 - Centro - Tubarão/SC
-            <a href="#" title="Clique para fazer login" class="login">Fazer login</a></p>
+         <p><b class="fone">Fone:</b> (00) 0000-0000<b class="endereco">Endereço:</b> Rua Engenheiro Annes Gualberto, 1886 - Centro - São Leopoldo/RS
+            <a href="#" title="Clique para fazer login" class="login">Logar-se</a></p>
       </address>
 
    <!-- header -->
@@ -84,8 +84,8 @@
          <!-- menu -->
          <nav>
             <div class="menu">
-               <li><a class="home" title="Home" href="#">Home</a></li>
-               <li><a title="Igrejas" href="#">Igrejas</a></li>
+               <li><a title="Home" href="#">Home</a></li>
+               <li><a class="" title="Igrejas" href="#">Igrejas</a></li>
                <li><a title="Eventos" href="#">Eventos</a></li>
                <li><a class="galeria" title="Galeria" href="#">Galeria</a></li>
                <li><a title="Cultos" href="#">Cultos</a></li>

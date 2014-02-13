@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+/*  */
+/*Hover efeitos transition*/
+:hover {
+  -webkit-transition: all 200ms ease 10ms;
+  -moz-transition: all 200ms ease 10ms;
+  transition: all 200ms ease 10ms;
+}
+/* forms for site */
+input,
+select,
+text-area {
+  padding: 8px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin: 10px;
+}
+select {
+  background: #E8E8E8;
+  color: #333333;
+}
+.restricted {
+  float: right;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+body {
+  font-family: 'Lato';
+  font-weight: 300;
+}
+img {
+  max-width: 100%;
+}
+header {
+  background: #e8e8e8 url(../images/border-colors.gif) repeat-x bottom;
+  min-height: 175px;
+}
+header img {
+  padding-top: 28px;
+  padding-left: 10px;
+  float: left;
+}
+header img:hover {
+  opacity: 0.8;
+}
+header .restricted {
+  margin-top: 26px;
+  margin-left: 103px;
+}
+header fieldset {
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+header section {
+  max-width: 940px;
+  margin: 0 auto;
+}
+header .main {
+  padding: 30px 0;
+}
+header .main h1 {
+  font-size: 18px;
+  color: #525252;
+  position: relative;
+  top: 40px;
+}
+header .main h1 a {
+  text-decoration: none;
+  padding-left: 5px;
+  text-transform: uppercase;
+  color: #874ca0;
+}
+header .main h1 a:hover {
+  text-decoration: underline;
+}
+header .main .welcome {
+  height: 120px;
+}
+header .main .welcome article {
+  padding-top: 50px;
+}
+header .main .welcome article h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  border-left: 2px solid #333;
+}
