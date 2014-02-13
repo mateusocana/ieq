@@ -83,13 +83,13 @@
 
          <!-- menu -->
          <nav>
-            <ul>
+            <div class="menu">
                <li><a class="home" title="Home" href="#">Home</a></li>
                <li><a title="Igrejas" href="#">Igrejas</a></li>
                <li><a title="Eventos" href="#">Eventos</a></li>
                <li><a class="galeria" title="Galeria" href="#">Galeria</a></li>
                <li><a title="Cultos" href="#">Cultos</a></li>
                <li><a class="atendimento" title="Atendimento" href="#">Atendimento</a></li>
-            </ul>
+            </div>
          </nav><!-- /menu -->
    </header><!-- /header -->
