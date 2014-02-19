@@ -24,7 +24,7 @@
             <ul>
                <li><img src="_images/eventos/event1.jpg" title="evento 1" alt=""></li>
                <li><img src="_images/eventos/event2.jpg" title="evento 2" alt=""></li>
-               <li><img src="_images/eventos/event3.jpg" title="evento 3" alt=""></li>
+               <li id="bug"><img src="_images/eventos/event3.jpg" title="evento 3" alt=""></li>
 
             </ul>
          </div>
