@@ -1,0 +1,293 @@
+// scroll
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+   width: 12px;
+   background-color: @black;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 5px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+   background-color: #555;
+}
+
+.bar-header {
+   width: 100%;
+   background: black;
+   height: auto;
+   line-height: 30px;
+   position: relative;
+
+   p {
+      .box-width;
+      color: @white;
+      font-size: 1.2em;
+      position: relative;
+   }
+}
+
+.fone {
+   color: @yellow;
+   padding-right: 1em;
+}
+.endereco {
+   color: @yellow;
+   padding: 0 1em;
+}
+
+// box login
+.login {
+   float: right;
+   color: @yellow;
+   text-decoration: underline;
+   position: relative;
+}
+
+#box-login {
+   width: 200px;
+   height: 190px;
+   background: @black;
+   position: relative;
+   float: right;
+   z-index: 1;
+   font-size: 12px;
+   color: @gray;
+   overflow: hidden;
+   display: none;
+   .box-shadow;
+   .radius(0 0 3px 3px);
+
+   ul {
+      width: 180px;
+      margin: 0 auto;
+   }
+}
+
+// inputs
+#box-login input[type=text], input[type=password] {
+   width: 100%;
+   height: 30px !important;
+   border: 1px solid transparent;
+   .radius(1.5px);
+
+   &:focus {
+      border: 1px solid @yellow;
+      .transitions;
+   }
+}
+
+// checkbox remember-me
+.remember {
+   position: relative;
+   top: 2px;
+}
+
+.remember-me {
+   position: relative;
+   top: -1px;
+   left: 5px;
+}
+
+.btn-login {
+   width: 50px !important;
+   height: 35px;
+   .radius(3px) !important;
+   position: relative;
+   top: -3px;
+   background: @yellow;
+   border-bottom: 3px solid @yellow-strong;
+   text-align: center;
+   color: @black;
+
+   &:hover {
+      background: @yellow-strong;
+      border-bottom: 3px solid @yellow;
+      .transitions;
+      cursor: pointer;
+   }
+}
+
+header {
+   position: relative;
+   background: @color-bg;
+
+   .container {
+      padding-top: 50px;
+      height: 217px;
+      position: relative;
+   }
+}
+
+// logo ieq
+.logo img {
+   float: left;
+   margin-left: 0;
+   width: 337px;
+   height: 116px;
+}
+
+// logo bispo
+.logo-bispo {
+   position: absolute;
+   left: 740px;
+}
+
+.logo-bispo img {
+   width: 173px;
+   height: 116px;
+}
+
+// nav - menu
+nav {
+   height: 50px;
+   background: @yellow;
+
+   .menu {
+      .box-width;
+   }
+}
+
+nav {
+
+   li {
+      display: inline;
+      line-height: 50px;
+      font-size: 1.8em;
+   }
+}
+
+nav {
+
+   a {
+      text-decoration: none;
+      font-size: 18px;
+      color: @black;
+      padding-right: 28px;
+
+      &:hover {
+         text-decoration: underline;
+      }
+   }
+}
+
+.arrow {
+   margin-right: 25px;
+}
+
+.menu {
+   position: relative !important;
+
+   li {
+      float: left;
+      position: relative;
+   }
+}
+
+.sub-menu {
+   width: 203px;
+   background: @black;
+   position: absolute;
+   z-index: 10;
+   display: none;
+   padding: 15px 0;
+   box-shadow: -1px 2px 3px;
+   .radius(0 0 2px 2px);
+
+   a {
+      text-decoration: none;
+      color: @white;
+      font-size: 14px;
+      width: 175px;
+      margin-left: 15px;
+      display: block;
+      line-height: 200% !important;
+
+      &:hover {
+         color: @yellow;
+         text-decoration: none;
+      }
+   }
+}
+
+
+// icones de triangulo nos submenus em puro css
+.arrow:before {
+   content: '';
+   border-style: solid solid solid;
+   border-color: transparent;
+   border-top-color: #000;
+   border-width: 6px 4px 0;
+   padding-top: 1px;
+   position: relative;
+   top: 16px;
+   left: 70px;
+}
+.atendimento:before {
+   content: "";
+   border-style: solid;
+   border-right: 4px solid transparent;
+   border-color: #000 transparent transparent;
+   border-width: 6px 4px 0px;
+   padding-top: 1px;
+   position: relative;
+   top: 16px;
+   left: 120px;
+}
+
+
+/* Localização - Migalhas de pão */
+
+.nav {
+   width: 100%;
+   height: 34px;
+   background: @black;
+}
+.box-nav {
+   width: 940px;
+   margin: 0 auto;
+
+   .you {
+      color: @yellow;
+      line-height: 34px;
+   }
+
+   .you:before {
+      content: none;
+   }
+
+   .return {
+      text-transform: uppercase;
+
+      a {
+         float: right;
+         line-height: 34px;
+      }
+   }
+
+   li {
+      list-style: none;
+      display: inline;
+      margin-right: 5px;
+      font-size: 12px;
+      font-weight: 600;
+
+      a {
+         text-decoration: none;
+         color: @gray;
+
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+
+      &:before {
+         content: '>';
+         margin-right: 5px;
+         color: #ccc;
+      }
+   }
+}

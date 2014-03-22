@@ -1,0 +1,36 @@
+// Aply Transition effects in elements with :hover
+.transitions (@hover: all 450ms ease 5ms) {
+   -webkit-transition: @hover;
+       -moz-transition: @hover;
+           transition: @hover;
+}
+
+// Apply a rounded edge on the element
+.radius (@corner: 4px) {
+   -webkit-border-radius: @corner;
+      -moz-border-radius: @corner;
+         -o-border-radius: @corner;
+            border-radius: @corner;
+}
+
+// Aply box-shadow on elements
+.box-shadow (@intensit: 1px) {
+   -webkit-box-shadow: @intensit @intensit 5px @black;
+   -moz-box-shadow: @intensit @intensit 5px @black;
+   box-shadow: @intensit @intensit 5px @black;
+}
+
+// Aply filter-box-shadow css3 on elements
+.filter-box-shadow (@intensit: 1px) {
+   -webkit-filter: drop-shadow(@intensit @intensit @intensit @gray-medium);
+   -moz-filter: drop-shadow(@intensit @intensit @intensit @gray-medium);
+   -ms-filter: drop-shadow(@intensit @intensit @intensit @gray-medium);
+   -o-filter: drop-shadow(@intensit @intensit @intensit @gray-medium);
+   filter: drop-shadow(@intensit @intensit @intensit @gray-medium);
+}
+
+// Align the Content box to 940px center
+.box-width (@width: 940px) {
+   width: @width;
+   margin: 0 auto;
+}

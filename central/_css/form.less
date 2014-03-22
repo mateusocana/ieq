@@ -1,0 +1,46 @@
+.location form {
+   font-size: 1.2em;
+}
+
+.location select {
+   height: 3.8em;
+   line-height: 3.8em;
+   border: 0.1em solid #E8E8E8;
+   .radius(0.4em);
+   color: #C8C8C8;
+}
+
+.location {
+   width: 300px;
+   display: block;
+   float: left;
+   margin-left: 54px;
+   margin-top: 5px;
+
+   select {
+      width: 300px;
+      margin-bottom: 15px;
+   }
+}
+
+#igreja {
+   width: 240px;
+   float: left;
+}
+
+.locat-btn {
+   width: 4.5em;
+   height: 3.8em;
+   background: @purple;
+   border-bottom: 3px solid @purple-border;
+   color: @white;
+   margin-left: 6px;
+   .radius(3px);
+
+   &:hover {
+      background: @purple-border;
+      border-bottom: 3px solid @purple;
+      cursor: pointer;
+      .transitions;
+   }
+}

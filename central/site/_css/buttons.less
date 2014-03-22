@@ -1,0 +1,21 @@
+button {
+   height: auto;
+   line-height: 40px;
+   background: @purple;
+   border-bottom: 3px solid @purple-border;
+   text-align: center;
+   padding: 0 7px;
+   .radius(3px);
+
+   a {
+      color: @white;
+      text-decoration: none;
+   }
+
+   &:hover {
+      background: @purple-border;
+      border-bottom: 3px solid @purple;
+      cursor: pointer;
+      .transitions;
+   }
+}
