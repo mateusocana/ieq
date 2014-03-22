@@ -25,20 +25,6 @@
       <h1 class="title right">(Bom dia) <a title="Visitante" class="fone" href="#">Visitante</a></h1>
    </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include "site/footer.php";?>
 
 <!-- remove a classe nav - menu -->
