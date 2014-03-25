@@ -45,7 +45,7 @@
                        var date = new Date();
                        document.write(date.getFullYear());
                    </script> | Igreja do Evangelho Quadrangular.
-                   <div class="right">(XX) XXXX-XXXX</div>
+                   <div class="right phone">(XX) XXXX-XXXX</div>
             </div>
                <a class="developer-agency" href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys e Ocanadesign.">Desenvolvido por <span class="fone">Ocanadesign & Flecksys Informática</span></a>
          </section>

@@ -64,8 +64,8 @@
             <div class="clear"></div>
          <div class="noticias-text">
 
-<!--          <a class="prev" title="Anterior" href="#">Anterior</a>
-         <a class="next" title="Próximo" href="#">Próximo</a> -->
+         <a class="news-prev" title="Anterior" href="#">Anterior</a>
+         <a class="news-next" title="Próximo" href="#">Próximo</a>
 
             <h1>Titulo da Postagem</h1>
                <p>
@@ -82,7 +82,7 @@
                  Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt laudantium?
                  Debitis, velit ad ipsa. Eaque, incidunt iusto velit hic iste laborum totam natus ut ducimus commodi?
                </p> -->
-               <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe>
+               <!-- <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe> -->
          </div><!-- video-text -->
 
          <div class="question">
@@ -100,9 +100,9 @@
 
 <?php include "site/footer.php";?>
 
-<!-- remove class -->
+<!-- remove class
 <script type="text/javascript">
    $(function(){
       $('nav, .telephone, .f-none').remove();
    });
-</script>
+</script> -->
