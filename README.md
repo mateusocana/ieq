@@ -1,4 +1,4 @@
-![image](https://github.com/mateusocana/ieq/blob/master/central/_images/logo-ieq.png?raw=true)
+![image](https://github.com/mateusocana/ieq/blob/master/_images/logo-ieq.png)
 
 ### IEQ - Igreja do Evangelho Quadrangular
 
