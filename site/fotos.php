@@ -10,6 +10,33 @@
 
    <section>
    		<h1 class="title">Fotos</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    </section>
 
 <?php include "footer.php";?>

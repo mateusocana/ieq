@@ -47,7 +47,7 @@
                    </script> | Igreja do Evangelho Quadrangular.
                    <div class="right phone">(XX) XXXX-XXXX</div>
             </div>
-               <a class="developer-agency" href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys e Ocanadesign.">Desenvolvido por <span class="fone">Ocanadesign & Flecksys Informática</span></a>
+               <a class="developer-agency" href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys e Ocanadesign.">Desenvolvido por <span class="fone">Ocaña Design e Flecksys Informática</span></a>
          </section>
       </footer><!--/footer-->
 
