@@ -24,8 +24,8 @@
 
             <figcaption>
                <h1>Sidnei de Mello</h1>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy.</p>
-               <b>INFORMAÇÕES - REF. IEQ</b>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy.</p>
+                <b>INFORMAÇÕES - REF. IEQ</b>
             </figcaption>
 
          </figure><!-- foto-bispo -->
