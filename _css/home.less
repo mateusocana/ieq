@@ -213,16 +213,39 @@ figure {
    margin: 20px 0;
    float: left;
    position: relative;
+   overflow: hidden;
 }
 
 figcaption {
-   background: rgba(252,206,32,0.7);
-   width: 220px;
-   height: 160px;
-   position: absolute;
-   z-index: 10;
-   bottom: 0;
-   padding: 10px;
+  background: rgba(252,206,32,0.7);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  padding: 10px;
+  // termina a transição, descendo a div
+  -webkit-transition: opacity .3s,-webkit-transform .3s;
+  -moz-transition: opacity .3s,-moz-transform .3s;
+  -ms-transition: opacity .3s,-ms-transform .3s;
+  -o-transition: opacity .3s,-o-transform .3s;
+  transition: opacity .3s,transform .3s;
+  -webkit-transform: translateY(200px);
+  -moz-transform: translateY(200px);
+  -ms-transform: translateY(200px);
+  -o-transform: translateY(200px);
+  transform: translateY(200px);
+
+  &:hover {
+    // inicia a transição, subindo a div
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    cursor: pointer;
+  }
 
    h1 {
       font-size: 18px;
@@ -237,6 +260,7 @@ figcaption {
       margin: 10px 0;
    }
 }
+
 .video-ou-texto {
    width: 700px;
    height: 360px;

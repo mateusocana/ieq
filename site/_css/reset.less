@@ -1,4 +1,21 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:400, 300");
+// @import url("http://fonts.googleapis.com/css?family=Lato:400, 300");
+
+// scroll
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+   width: 12px;
+   background-color: @black;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 5px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+   background-color: #555;
+}
 
 /* CSS Reset */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, button, ins, kbd, q, s, samp,small, strike,
@@ -44,7 +61,7 @@ iframe {
 
 html {font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 html, button, input, select, option, textarea { font-family: "Lato"; color: #333;}
-body {margin: 0; padding: 0; border: 0; outline: 0; font-size: 62.5%; font-family: "Lato";}
+body {margin: 0; padding: 0; border: 0; outline: 0; font-size: 62.5%; font-family: "Lato"; background: #FAFAF7;}
 
 /* Selected Text */
 ::-moz-selection {background: @yellow; color: @white; text-shadow: none;}

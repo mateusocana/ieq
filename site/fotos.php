@@ -9,9 +9,34 @@
 </div>
 
    <section>
-   		<h1 class="title">Fotos</h1>
+<!--    		<h1 class="title">Fotos</h1>
+ -->
+<!--             <div class="slide">
+               <ul>
+                  <li><img src="_images/slide/banner3.jpg" title="slide 1" alt=""></li>
+                  <li><img src="_images/slide/banner2.jpg" title="slide 2" alt=""></li>
+                  <li><img src="_images/slide/banner.jpg" title="slide 3" alt=""></li>
+                  <li><img src="_images/slide/banner4.jpg" title="slide 4" alt=""></li>
+                  <li><img src="_images/slide/banner5.jpg" title="slide 5" alt=""></li>
+               </ul>
+            </div> -->
 
-
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
+            <figure class="foto"><img title="foto" alt="" src="_images/galeria/fotos/photo.jpg"></figure>
 
 
 

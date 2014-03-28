@@ -127,8 +127,8 @@
 
          <nav>
             <ul class="menu">
-               <li><a title="Home" href="index.php">Home</a></li>
-               <li class="arrow"><a class="txd" href="#" title="Igrejas">Igrejas</a>
+               <li><a class="txd" title="Home" href="index.php">Home</a></li>
+               <li class="arrow"><a href="#" title="Igrejas">Igrejas</a>
                   <ul class="sub-menu">
                      <li><a title="São Leopoldo" href="http://localhost:82/ieq/central/site/index.php">São Leopoldo</a></li>
                      <li><a title="Sapucaia" href="#">Sapucaia</a></li>
@@ -147,8 +147,8 @@
                   </ul>
                </li>
                </li>
-               <li><a href="cultos.php" title="Cultos">Cultos</a></li>
-               <li class="atendimento"><a class="txd" href="#" title="Atendimento">Atendimento</a>
+               <li><a class="txd" href="cultos.php" title="Cultos">Cultos</a></li>
+               <li class="atendimento"><a href="#" title="Atendimento">Atendimento</a>
                   <ul class="sub-menu">
                      <li><a title="Contato" href="contato.php">Contato</a></li>
                      <li><a title="Pedido de Oração" href="pedido-oracao.php">Pedido de Oração</a></li>
@@ -157,3 +157,5 @@
             </ul>
          </nav><!-- /nav - menu -->
       </header><!-- /header -->
+
+      

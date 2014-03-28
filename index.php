@@ -22,10 +22,11 @@
          <figure class="foto-bispo">
             <img title="Bispo Sidnei de Mello" alt="Foto Bispo Sidnei de Mello" src="_images/thumb-bispo.jpg">
 
-            <figcaption>
+            <figcaption title="Passe o mouse para ver todo conteúdo">
                <h1>Sidnei de Mello</h1>
                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy.</p>
                 <b>INFORMAÇÕES - REF. IEQ</b>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy, ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy.</p>
             </figcaption>
 
          </figure><!-- foto-bispo -->
@@ -64,10 +65,10 @@
             <div class="clear"></div>
          <div class="noticias-text">
 
-         <a class="news-prev" title="Anterior" href="#">Anterior</a>
-         <a class="news-next" title="Próximo" href="#">Próximo</a>
+         <a class="news-prev" title="Notícia Anterior" href="#">Anterior</a>
+         <a class="news-next" title="Próxima Notícia" href="#">Próximo</a>
 
-            <h1>Titulo da Postagem</h1>
+            <h1>Últimas Notícias</h1>
                <p>
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, praesentium, nemo, sint odio commodi suscipit neque dolore nisi voluptates modi eligendi itaque porro consequuntur sed fugit. Voluptas, provident neque quod.
                  Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt laudantium?
@@ -89,7 +90,7 @@
                <span>
                   Oquê você achou do nosso portal? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, aliquid, rerum, vel, corporis ea commodi maxime blanditiis reprehenderit.
                </span>
-            <button class="btn red" type="submit">Responder</button>
+            <button class="btn red" title="Responder" type="submit">Responder</button>
          </div><!-- question -->
 
          <div class="acess">
@@ -99,10 +100,3 @@
    </section>
 
 <?php include "site/footer.php";?>
-
-<!-- remove class
-<script type="text/javascript">
-   $(function(){
-      $('nav, .telephone, .f-none').remove();
-   });
-</script> -->

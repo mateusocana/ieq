@@ -1,11 +1,27 @@
-# This file is for unifying the coding style for different editors and IDEs
-# See editorconfig.org
-
 root = true
 
+; Pra todos os arquivos
 [*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+; Estilo de identação em arquivos HTML
+[*.html]
 indent_style = space
 indent_size = 3
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
+
+; Estilo de identação em arquivos CSS
+[*.css]
+indent_style = space
+indent_size = 2
+
+; Estilo de identação em arquivos LESS
+[*.less]
+indent_style = space
+indent_size = 2
+
+; Estilo de identação em arquivos JS dentro do diretório Scripts
+[js/*.js]
+indent_style = tab
+indent_size = 2
