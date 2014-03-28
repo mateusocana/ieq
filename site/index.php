@@ -103,7 +103,7 @@
                <div class="fb">
                   <h5 class="fb-title">Curta nossa Fan Page</h5>
 
-                  <div class="fb-like-box" data-href="https://www.facebook.com/pages/International-Church-of-the-Foursquare-Gospel/106236119407288?rf=108188135875433" data-width="300" data-height="335" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="false" data-force-wall></div>
+                  <div class="fb-like-box" data-href="https://www.facebook.com/pages/International-Church-of-the-Foursquare-Gospel/106236119407288?rf=108188135875433" data-width="300" data-height="335" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
                </div>
            </div><!-- /comunicados -->
 

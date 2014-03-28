@@ -96,7 +96,7 @@
             </figure><!-- /logo -->
 
                <div class="location">
-                  <form action="#">
+                  <form action="site/index.php"><!-- redireciona o usuário para o site da igreja -->
                      <select name="cidade" id="cidade">
                         <option value="-1">Selecione a cidade</option>
                         <option value="1">São Leopoldo</option>
