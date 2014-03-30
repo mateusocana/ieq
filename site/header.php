@@ -29,9 +29,6 @@
    <meta name="og:email" content="email@yourdomain.com"/>
    <meta name="og:phone_number" content="(XX) XXXX-XXXX"/>
 
-   <!-- mobile viewport-->
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-
    <!-- stylesheets -->
    <link rel="stylesheet" href="_css/style.css" type="text/css" media="screen">
 
