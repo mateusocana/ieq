@@ -301,11 +301,13 @@ figcaption {
    position: relative;
 
    h1 {
+      width: 300px;
       font-size: 22px;
       color: @black;
       border-bottom: 1px solid #DDD;
       padding-bottom: 5px;
       margin-bottom: 10px;
+      float: left;
 
    }
       p {
@@ -313,6 +315,58 @@ figcaption {
          line-height: 123%;
          color: @black;
    }
+}
+
+.carousel {
+  h2 {
+    font-size: 18px;
+    color: @red;
+    padding: 7px 0;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  b {
+    font-size: 12px;
+    line-height: 180%;
+    color: @gray-medium;
+  }
+}
+.veja-mais {
+  font-size: 16px;
+  color: @red;
+  padding-left: 10px;
+
+  &:hover {
+    color: @black;
+  }
+}
+
+.news-prev {
+  background: url(../_images/icons/arrow-top.png);
+  width: 21px;
+  height: 12px;
+  position: relative;
+  top: 7px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.news-next {
+  background: url(../_images/icons/arrow-down.png);
+  width: 21px;
+  height: 12px;
+  margin-left: 15px;
+  position: relative;
+  top: 7px;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .video-text {
@@ -348,7 +402,7 @@ figcaption {
    position: relative;
 
    span {
-      font-size: 18px;
+      font-size: 15px;
       text-align: justify;
    }
 

@@ -62,11 +62,13 @@
             </figure>
 
             <div class="comunicados">
-               <h3 id="teste" class="title">Comunicados</h3>
+               <h3 class="title">Comunicados</h3>
 
                   <div class="banner">
                      <ul>
                         <li><img src="_images/comunicados/comunicate.jpg" title="comunicado 1" alt=""></li>
+                        <li><img src="_images/comunicados/jovens.jpg" title="comunicado 2" alt=""></li>
+                        <li><img src="_images/comunicados/tadel.png" title="comunicado 3" alt=""></li>
                      </ul>
                   </div>
 
@@ -113,6 +115,8 @@
                <div class="banner">
                   <ul>
                      <li><img src="_images/publicidades/publict.jpg" title="publicidade 1" alt=""></li>
+                     <li><img src="_images/publicidades/publict.jpg" title="publicidade 2" alt=""></li>
+                     <li><img src="_images/publicidades/publict.jpg" title="publicidade 3" alt=""></li>
                   </ul>
                </div>
 

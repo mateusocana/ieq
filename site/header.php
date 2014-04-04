@@ -29,6 +29,8 @@
    <meta name="og:email" content="email@yourdomain.com"/>
    <meta name="og:phone_number" content="(XX) XXXX-XXXX"/>
 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
    <!-- stylesheets -->
    <link rel="stylesheet" href="_css/style.css" type="text/css" media="screen">
 
@@ -61,7 +63,7 @@
 
       <div class="bar-header">
          <p>
-            <em class="fone">Fone:</em> (00) 0000-0000 <em class="endereco">Endereço:</em> Rua Engenheiro Annes Gualberto, 1886 - Centro - São Leopoldo/RS <a href="#" title="Clique para fazer login" id="cityclick" class="login">Logar-se</a>
+            <em class="fone">Fone:</em> (00) 0000-0000 <em class="endereco">Endereço:</em> Rua Engenheiro Annes Gualberto, 1886 - Centro - São Leopoldo/RS <a href="#" title="Clique para fazer login" id="loginclick" class="login">Logar-se</a>
             <section>
                <div id="box-login">
                   <form action="#">

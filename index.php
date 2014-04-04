@@ -25,7 +25,7 @@
             <figcaption title="Passe o mouse para ver todo conteúdo">
                <h1>Sidnei de Mello</h1>
                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy.</p>
-                <b>INFORMAÇÕES - REF. IEQ</b>
+                  <b>INFORMAÇÕES - REF. IEQ</b>
                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy, ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet sed diam nonummy nibh euismod sed diam nonummy.</p>
             </figcaption>
 
@@ -34,15 +34,7 @@
          <div class="video-ou-texto">
             <h1>Titulo da Postagem</h1>
                <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, eos, assumenda, soluta nihil sequi animi beatae magni adipisci perferendis temporibus doloremque vero reiciendis esse atque est facilis corporis omnis nam.
-                 Ab, doloribus, alias, enim omnis atque ipsam aliquid in blanditiis harum quisquam neque quos distinctio vel facere at sed impedit nam dolores est numquam voluptates sit deserunt aspernatur tenetur nostrum?
-                 Vero, vel unde iure placeat maiores at in facilis iste architecto debitis incidunt necessitatibus excepturi tempore ducimus ex sequi dolores ut inventore? Dolorum, fuga perspiciatis impedit pariatur blanditiis excepturi asperiores.
-                 Dignissimos, odit, fuga expedita cumque dolorum necessitatibus nihil id ratione ipsam a quae sunt fugit esse iste minima dolorem atque nemo suscipit autem rerum magni illum vero error sit doloremque.
-                 Quo, dolorem, perspiciatis, sequi ab cum tempora velit nesciunt quidem praesentium eaque hic ipsum quis fuga vero quaerat quam nisi vitae incidunt maxime ad similique inventore ea fugit quia ducimus.
-                 Ipsa, nihil, rem, aliquid dolor placeat harum enim esse assumenda quasi quia similique quisquam quis iusto quidem illo impedit minima iste ab labore ipsam asperiores autem qui cupiditate quod exercitationem?
-                 Ullam ipsum voluptatibus adipisci minima minus accusantium expedita at perspiciatis. Dicta, consequuntur, aut fuga veritatis a quos sapiente beatae voluptatem repudiandae deleniti eum officia harum. Cumque numquam facere
-                  ipsam asperiores autem qui cupiditate quod exercitationem?
-                 Ullam ipsum voluptatibus adipisci minima minus accusantium expedita at perspiciatis. Dicta, consequuntur, aut fuga veritatis a quos sapiente beatae voluptatem repudiandae deleniti eum officia harum. Cumque numquam facere
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, eos, assumenda, soluta nihil sequi animi beatae magni adipisci perferendis temporibus doloremque vero reiciendis esse atque est facilis corporis omnis nam. Ab, doloribus, alias, enim omnis atque ipsam aliquid in blanditiis harum quisquam neque quos distinctio vel facere at sed impedit nam dolores est numquam voluptates sit deserunt aspernatur tenetur nostrum? Vero, vel unde iure placeat maiores at in facilis iste architecto debitis incidunt necessitatibus excepturi tempore ducimus ex sequi dolores ut inventore? Dolorum, fuga perspiciatis impedit pariatur blanditiis excepturi asperiores. Dignissimos, odit, fuga expedita cumque dolorum necessitatibus nihil id ratione ipsam a quae sunt fugit esse iste minima dolorem atque nemo suscipit autem rerum magni illum vero error sit doloremque. Quo, dolorem, perspiciatis, sequi ab cum tempora velit nesciunt quidem praesentium eaque hic ipsum quis fuga vero quaerat quam nisi vitae incidunt maxime ad similique inventore ea fugit quia ducimus. Ipsa, nihil, rem, aliquid dolor placeat harum enim esse assumenda quasi quia similique quisquam quis iusto quidem illo impedit minima iste ab labore ipsam asperiores autem qui cupiditate quod exercitationem? Ullam ipsum voluptatibus adipisci minima minus accusantium expedita at perspiciatis. Dicta, consequuntur, aut fuga veritatis a quos sapiente beatae voluptatem repudiandae deleniti eum officia harum. Cumque numquam facere ipsam asperiores autem qui cupiditate quod exercitationem? Ullam ipsum  ipsam asperiores autem qui cupiditate quod exercitationem? Ullam ipsum .
                </p>
 
                <!-- <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe> -->
@@ -51,7 +43,7 @@
 
             <div class="fotos-ou-slide">
 
-               <div class="slide">
+               <div class="slideleft">
                   <ul>
                      <li><img src="_images/slide/banner3.jpg" title="slide 1" alt=""></li>
                      <li><img src="_images/slide/banner2.jpg" title="slide 2" alt=""></li>
@@ -62,40 +54,91 @@
                </div>
             </div><!-- fotos-ou-slide -->
 
-            <div class="clear"></div>
-         <div class="noticias-text">
+         <div id="news" class="noticias-text">
 
-         <a class="news-prev" title="Notícia Anterior" href="#">Anterior</a>
-         <a class="news-next" title="Próxima Notícia" href="#">Próximo</a>
+         <h1 id="noticia">Últimas Notícias
+           <a class="news-next right" title="Próxima Notícia" href="#"></a>
+           <a class="news-prev right" title="Notícia Anterior" href="#"></a>
+         </h1>
 
-            <h1>Últimas Notícias</h1>
-               <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, praesentium, nemo, sint odio commodi suscipit neque dolore nisi voluptates modi eligendi itaque porro consequuntur sed fugit. Voluptas, provident neque quod.
-                 Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt laudantium?
-                 Debitis, velit ad ipsa. Eaque, incidunt iusto velit hic iste laborum totam natus ut ducimus commodi?
-               </p>
+          <div class="carousel">
+            <ul>
+              <li>
+                <h2 class="title-news">Notícia #1</h2>
+                  <b>Publicado em 28/03/2014</b>
+                  <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.Tenetur,praesentium, nemo, sint odio commodi suscipit neque dolore nisi voluptates modi eligendi itaque porro consequuntur sed fugit. Voluptas,provident neque quod.
+                   Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt nesciunt laudantium? 
+
+                   <a href="#" class="veja-mais" title="Veja mais">Veja +</a>
+                  </p>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h2 class="title-news">Notícia #2</h2>
+                  <b>Publicado em 25/03/2014</b>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.Tenetur,praesentium, nemo, sint odio commodi suscipit neque dolore nisi voluptates modi eligendi itaque porro consequuntur sed fugit. Voluptas,provident neque quod.
+                    Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt nesciunt laudantium? 
+
+                    <a href="#" class="veja-mais" title="Veja mais">Veja +</a>
+                  </p>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h2 class="title-news">Notícia #3</h2>
+                  <b>Publicado em 21/03/2014</b>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.Tenetur,praesentium, nemo, sint odio commodi suscipit neque dolore nisi voluptates modi eligendi itaque porro consequuntur sed fugit. Voluptas,provident neque quod.
+                    Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt  nesciuntlaudantium? 
+
+                    <a href="#" class="veja-mais" title="Veja mais">Veja +</a>
+                  </p>
+              </li>
+            </ul>          
+
+            <ul>
+              <li>
+                <h2 class="title-news">Notícia #4</h2>
+                  <b>Publicado em 18/03/2014</b>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.Tenetur,praesentium, nemo, sint odio commodi suscipit neque dolore nisi voluptates modi eligendi itaque porro consequuntur sed fugit. Voluptas,provident neque quod.
+                    Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt nesciunt laudantium? 
+
+                    <a href="#" class="veja-mais" title="Veja mais">Veja +</a>
+                  </p>
+              </li>
+            </ul>
+          </div><!-- carousel -->
+                  
          </div><!-- noticias-text -->
 
          <div class="video-text">
-      <!-- <h1>Titulo da Postagem</h1>
+        <!-- <h1>Titulo da Postagem</h1>
                <p>
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, praesentium, nemo, sint odio commodi suscipit neque dolore nisi voluptates modi eligendi itaque porro consequuntur sed fugit. Voluptas, provident neque quod.
                  Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt laudantium?
                  Debitis, velit ad ipsa. Eaque, incidunt iusto velit hic iste laborum totam natus ut ducimus commodi?
                </p> -->
-               <!-- <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe> -->
+               <!-- <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe> --> 
+
          </div><!-- video-text -->
 
          <div class="question">
                <span>
                   Oquê você achou do nosso portal? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, aliquid, rerum, vel, corporis ea commodi maxime blanditiis reprehenderit.
+                  Oquê você achou do nosso portal? Lorem ipsum dolor sit amet.
                </span>
             <button class="btn red" title="Responder" type="submit">Responder</button>
          </div><!-- question -->
 
          <div class="acess">
             <h1>Total de acessos no site</h1>
-            <p>1850</p>
+            <p title="No momento temos 1850 acessos">1850</p>
          </div><!-- acess -->
    </section>
 

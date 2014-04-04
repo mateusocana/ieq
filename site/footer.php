@@ -55,9 +55,10 @@
       <script src="_js/jquery.js"></script>
       <script src="_js/cycle.js"></script>
       <script src="_js/cycle_function.js"></script>
+      <script src="_js/jcarousel.js"></script>
       <script src="_js/scripts.js"></script>
 
-      <div id="fb-root"></div>
+<!--       <div id="fb-root"></div>
       <script>(function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
@@ -66,7 +67,7 @@
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
       </script>
-
+ -->
       <!-- google analytics -->
       <!--<script>
         var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
