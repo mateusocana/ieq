@@ -28,7 +28,7 @@
                   <div class="sociais">
                      <ul>
 
-                        <li><a href="https://facebook.com/ocanadesign" title="Facebook" target="_blank"><img src="_images/icons/facebook-icon.jpg" alt=""></a></li>
+                        <li><a href="https://facebook.com/url-da-pagina" title="Facebook" target="_blank"><img src="_images/icons/facebook-icon.jpg" alt=""></a></li>
                         <li><a href="#" title="Twitter" target="_blank"><img src="_images/icons/twitter-icon.jpg" alt=""></a></li>
                         <li><a href="#" title="Youtube" target="_blank"><img src="_images/icons/youtube-icon.jpg" alt=""></a></li>
                         <li><a href="#" title="Google Plus" target="_blank"><img src="_images/icons/googlePlus-icon.jpg" alt=""></a></li>
@@ -47,7 +47,7 @@
                    </script> | Igreja do Evangelho Quadrangular.
                    <div class="right phone">(XX) XXXX-XXXX</div>
             </div>
-               <a class="developer-agency" href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys e Ocanadesign.">Desenvolvido por <span class="fone">Ocaña Design e Flecksys Informática</span></a>
+               <a class="developer-agency" href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys Informática.">Desenvolvido por <span class="fone">Flecksys Informática</span></a>
          </section>
       </footer><!--/footer-->
 

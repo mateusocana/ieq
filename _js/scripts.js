@@ -19,41 +19,13 @@ $("#loginclick").click(function () {
 });
 
 // caroulsel - últimas noticias 
-$(function(){
+$(document).ready(function(){
    $(".carousel").jCarouselLite({
-    vertical: 'true',
+    // vertical: 'true',
     auto: 3500,
     speed: 4000,
     visible: 4,
     btnNext: ".news-next",
     btnPrev: ".news-prev",
-    scroll: 1
    });
 });
-
-// // abre modal 
-// $(function () {
-//   // Associa o evento do popover ao clicar no link.
-//   $('#a-popover').popover({
-//      trigger: 'manual',
-//      html: true,
-//      title: 'Título popover',
-//      content: $('#div-popover').html() // Adiciona o conteúdo da div oculta para dentro do popover.
-//   }).click(function (e) {
-//      e.preventDefault();
-//      // Exibe o popover.
-//      $(this).popover('show');
-//   });
-
-//   $('#btn-fechar').live('click', function (e) {
-//      // Oculta o popover ao clicar no botão fechar.
-//      $('#a-popover').popover('hide');
-//   });
-
-//   $('#btn-modal').live('click', function (e) {
-//      // Oculta o popover ao clicar no botão abrir modal.
-//      $('#a-popover').popover('hide');
-//      // Abre o modal.
-//      $('#div-modal').modal();
-//   });
-// });

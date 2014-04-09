@@ -1,0 +1,26 @@
+CACHE MANIFEST
+# v1.0 
+
+header.php
+index.php
+footer.php
+_images/logo-ieq.png
+_images/icons/arrow-left.png
+_images/icons/arrow-right.png
+_images/icons/arrow-top.png
+_images/icons/arrow-down.png
+_images/icons/favicon.png
+_images/icons/facebook-icon.jpg
+_images/icons/googlePlus-icon.jpg
+_images/icons/pinterest-icon.jpg
+_images/icons/youtube-icon.jpg
+_images/icons/twitter-icon.jpg
+_js/jquery.js
+_js/cycle.js
+_js/cycle_function.js
+_js/modernizr.js
+_js/scripts.js
+_css/style.css
+
+NETWORK:
+*
