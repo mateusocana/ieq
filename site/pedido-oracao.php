@@ -9,7 +9,7 @@
 </div>
 
    <section>
-         <h1 class="title">Pedido de Oração</h1>
+         <h1 class="page-title">Pedido de Oração</h1>
    </section>
 
 <?php include "footer.php";?>

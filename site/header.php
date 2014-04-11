@@ -3,8 +3,8 @@
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="pt-br" manifest="cache.manifest"> <!--<![endif]-->
-
+<!--[if gt IE 8]><!--> <html lang="pt-br" > <!--<![endif]-->
+<!-- manifest="cache.manifest" -->
 <head>
    <meta charset="UTF-8">
 
@@ -56,8 +56,11 @@
    <meta name="msapplication-TileImage" content="_images/icons/tile.png"/>
    <meta name="msapplication-TileColor" content="#EF1746"/>
 
+   <!-- meta viewport -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
    <!-- modernizr -->
-   <!--[if IE]><script src="_js/modernizr.js"></script><![endif]-->
+   <!--[if IE]><script async src="_js/modernizr.js"></script><![endif]-->
 </head>
    <body>
       <!--[if IE 8]><p class="chromeframe">Atenção! seu navegador é <em>muito antigo.</em> <a title="Atualizar meu navegador" href="http://browsehappy.com/">Atualize para uma versão recente</a> ou <a title="Instalar o Chrome Frame" href="http://www.google.com/chromeframe/?redirect=true&prefersystemlevel=true&hl=pt-BR">Instale o Google Chrome Frame</a> para aproveitar todos os recursos deste site.</p><![endif]-->

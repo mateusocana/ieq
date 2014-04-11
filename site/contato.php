@@ -9,7 +9,7 @@
 </div>
 
 	<section>
-		<h1 class="title">Contato</h1>
+		<h1 class="page-title">Contato</h1>
 	</section>
 
 <?php include "footer.php";?>

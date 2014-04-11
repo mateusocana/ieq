@@ -5,12 +5,18 @@
   display: inline-table;
   margin-right: 18px;
   margin-bottom: 20px;
-  border: 1px solid @white;
+  .filter-box-shadow(1px);
   padding: 5px;
 
   img {
     width: 207px;
     height: 188px;
+
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
+      .transitions;
+    }
   }
 }
 

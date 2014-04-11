@@ -1,8 +1,7 @@
 CACHE MANIFEST
-# v1.0 
+# v2.0 
 
 site/header.php
-index.php
 site/footer.php
 _images/logo-ieq.png
 _images/icons/arrow-left.png
@@ -13,6 +12,7 @@ _images/icons/favicon.png
 _images/icons/facebook-icon.jpg
 _images/icons/googlePlus-icon.jpg
 _images/icons/pinterest-icon.jpg
+_images/icons/instagram-icon.jpg
 _images/icons/youtube-icon.jpg
 _images/icons/twitter-icon.jpg
 _js/jquery.js

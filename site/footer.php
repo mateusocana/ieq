@@ -40,11 +40,11 @@
             </div>
 
             <div class="copy">
-               &copy; Copyright -
+                Igreja do Evangelho Quadrangular &copy;
                    <script type="text/javascript">
                        var date = new Date();
                        document.write(date.getFullYear());
-                   </script> | Igreja do Evangelho Quadrangular.
+                   </script>. - Todos direitos Reservados
                    <div class="right phone">(XX) XXXX-XXXX</div>
             </div>
                <a class="developer-agency" href="http://flecksys.com.br/" target="_blank" title="Desenvolvido por Flecksys Informática.">Desenvolvido por <span class="fone">Flecksys Informática</span></a>
