@@ -3,8 +3,7 @@
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="pt-br" > <!--<![endif]-->
-<!-- manifest="cache.manifest" -->
+<!--[if gt IE 8]><!--> <html lang="pt-br" manifest="cache.manifest"> <!--<![endif]-->
 <head>
    <meta charset="UTF-8">
 
@@ -67,7 +66,7 @@
 
       <div class="bar-header">
          <p>
-            <em class="fone">Fone:</em><a class="acess-link" title="Ligue já" href="tel:+550000000000">(00) 0000-0000</a><em class="endereco">Endereço:</em><a class="acess-link" title="Ver no Mapa" target="_blank" href="http://maps.google.com/?q=Rua São Paulo, 1267 93010170 São Leopoldo - RS Brazil">Rua Engenheiro Annes Gualberto, 1886 - Centro - São Leopoldo/RS</a> <a href="#" title="Clique para fazer login" id="loginclick" class="login">Logar-se</a>
+            <em class="fone">Fone:</em><a class="acess-link" title="Ligue já" href="tel:+550000000000">(00) 0000-0000</a><em class="endereco">Endereço:</em><a class="acess-link" title="Ver no Mapa" target="_blank" href="http://maps.google.com/?q=Rua São Paulo, 1267 93010170 São Leopoldo - RS Brazil">Rua São Paulo, 1267 93010170 São Leopoldo - RS</a> <a href="#" title="Clique para fazer login" id="loginclick" class="login">Logar-se</a>
             <section>
                <div id="box-login">
                   <form action="#">
@@ -134,7 +133,7 @@
                <li><a class="txd" title="Home" href="index.php">Home</a></li>
                <li class="arrow"><a href="#" title="Igrejas">Igrejas</a>
                   <ul class="sub-menu">
-                     <li><a title="São Leopoldo" href="http://localhost:82/ieq/central/site/index.php">São Leopoldo</a></li>
+                     <li><a title="São Leopoldo" href="/ieq/index.php">São Leopoldo</a></li>
                      <li><a title="Sapucaia" href="#">Sapucaia</a></li>
                      <li><a title="Esteio" href="#">Esteio</a></li>
                      <li><a title="Canoas" href="#">Canoas</a></li>

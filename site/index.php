@@ -51,9 +51,14 @@
             <figure class="videos">
                <h1 class="title">Últimos Videos</h1>
                   <ul>
-                     <li><!-- <iframe src="//www.youtube.com/embed/kDEOpEs-Yj0" frameborder="0" allowfullscreen></iframe> --></li>
-                     <li><!-- <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe> --></li>
-                     <li class="right"><!-- <iframe src="//www.youtube.com/embed/VzXgU4uekvE" frameborder="0" allowfullscreen></iframe> --></li>
+                     <li>
+                     <!-- 
+                     OBS: FAÇA A VARIÁVEL DO PHP PARA IMPRIR OS DADOS DO BANCO ANTES DE 
+                     ?rel=0&theme=light&color=white  NOS IFRAMES, POIS ESTES CÓDIGOS FAZEM COM QUE O PLAYER DO VIDEO SEJA DE OUTRA COR.
+                     -->
+                        <iframe src="//www.youtube.com/embed/kDEOpEs-Yj0?rel=0&theme=light&color=white" frameborder="0" allowfullscreen></iframe></li>
+                     <li><iframe src="//www.youtube.com/embed/_9IdF-MN3aY?rel=0&theme=light&color=white" frameborder="0" allowfullscreen></iframe></li>
+                     <li class="right"><iframe src="//www.youtube.com/embed/VzXgU4uekvE?rel=0&theme=light&color=white" frameborder="0" allowfullscreen></iframe></li>
                   </ul>
 
                   <button class="right">

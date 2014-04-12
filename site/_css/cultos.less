@@ -1,0 +1,64 @@
+// Cultos
+#cultos {
+  padding-bottom: 20px;
+} 
+
+.culto {
+  background: @white;
+  margin-bottom: 30px;
+  .filter-box-shadow;
+
+  &:hover {
+    .transitions;
+    .filter-box-shadow(2px); 
+  }
+
+  h2 {
+    background: @black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: @white;
+    padding: 0 10px;
+    margin: 10px 0; 
+
+    b {
+      color: @yellow;
+    }
+
+  }
+
+  p {
+    font-size: 15px;
+    color: @black;
+    padding: 10px 10px;
+  }
+}
+
+.culto {
+  time {
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 600; 
+    text-transform: uppercase;
+    color: @purple;
+    position: relative;
+  }
+}
+
+.clock {
+  position: relative;
+
+  &:before {
+    content: '';
+    background: url(../_images/icons/clock-icon.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    float: right;
+    position: absolute;
+    top: -1px;
+    left: 8px;
+  }
+}
+
+

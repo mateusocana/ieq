@@ -56,6 +56,7 @@
       <script src="_js/cycle.js"></script>
       <script src="_js/cycle_function.js"></script>
       <script src="_js/jcarousel.js"></script>
+      <script src="_js/mask.js"></script>
       <script src="_js/scripts.js"></script>
 
 <!--       <div id="fb-root"></div>

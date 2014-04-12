@@ -4,6 +4,7 @@
    <ul class="box-nav">
       <li class="you">Você está em:</li>
       <li><a href="index.php">Home</a></li>
+      <li><a href="#">Galeria</a></li>
       <li><a href="#">Videos</a></li>
       <li class="return"><a title="Voltar à página anterior" href="javascript:window.history.go(-1)"><  Voltar</a></li> </ul>
 </div>
@@ -13,7 +14,11 @@
    <article>
       <h1>Mariana Valadão | Seu apenas te tocar - 19/08/2014</h1>
       <div class="video">
-         <iframe src="//www.youtube.com/embed/zQDhbialf8o?rel=0" frameborder="0" allowfullscreen></iframe>
+         <iframe src="//www.youtube.com/embed/zQDhbialf8o?rel=0&theme=light&color=white" frameborder="0" allowfullscreen></iframe>
+         <!-- 
+          OBS: FAÇA A VARIÁVEL DO PHP PARA IMPRIR OS DADOS DO BANCO ANTES DE 
+          ?rel=0&theme=light&color=white  NOS IFRAMES, POIS ESTES CÓDIGOS FAZEM COM QUE O PLAYER DO VIDEO SEJA DE OUTRA COR.
+         -->
       </div>
          <h2>Se eu apenas te Tocar</h2>          
             <p>Se eu apenas te tocar</p>
@@ -38,7 +43,7 @@
    <article>
       <h1>Guilherme cantando na Igreja Quadrangular - 19/08/2014</h1>
       <div class="video">
-         <iframe src="//www.youtube.com/embed/VzXgU4uekvE" frameborder="0" allowfullscreen></iframe>   
+         <iframe src="//www.youtube.com/embed/VzXgU4uekvE?rel=0&theme=light&color=white" frameborder="0" allowfullscreen></iframe>   
       </div>
          <h2>Letra do Hino</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui</p>
@@ -50,7 +55,7 @@
    <article>
       <h1>Hino da Igreja do Evangelho Quadrangular - Legendado</h1>
       <div class="video">
-         <iframe src="//www.youtube.com/embed/kDEOpEs-Yj0" frameborder="0" allowfullscreen></iframe>
+         <iframe src="//www.youtube.com/embed/kDEOpEs-Yj0?rel=0&theme=light&color=white" frameborder="0" allowfullscreen></iframe>
       </div>
          <h2>Letra do Hino</h2>
            <p>Eia, salvos avançai, nada de temer</p>

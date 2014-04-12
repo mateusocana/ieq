@@ -125,7 +125,7 @@
                  Eum, hic tempora nemo tenetur nulla neque similique harum facilis magnam! Non, eaque quibusdam deserunt quisquam quos atque autem recusandae nisi quia ullam? Fugit, iure nemo consectetur repellendus nesciunt laudantium?
                  Debitis, velit ad ipsa. Eaque, incidunt iusto velit hic iste laborum totam natus ut ducimus commodi?
                </p> -->
-               <!-- <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe> --> 
+               <iframe src="//www.youtube.com/embed/_9IdF-MN3aY" frameborder="0" allowfullscreen></iframe> 
          </div><!-- video-text -->
 
          <div class="question">

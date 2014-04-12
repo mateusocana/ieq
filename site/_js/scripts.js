@@ -17,3 +17,9 @@ $("#box-login").hide();
 $("#loginclick").click(function () {
     $("#box-login").toggle("fast");
 });
+
+
+// fone mask
+jQuery(function($){
+   $("#fone").mask("(99) 9999-9999");
+});
