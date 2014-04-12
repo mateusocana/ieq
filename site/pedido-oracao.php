@@ -23,9 +23,6 @@
           <fieldset>E-mail:</fieldset>
           <input type="email" title="Favor insira seu e-mail!" required="required" placeholder="sidnei@ieqr620.com.br">
 
-          <fieldset>Telefone:</fieldset>
-          <input id="fone" type="tel" title="Favor insira seu telefone!" required="required" placeholder="(99) 9999-9999 ">
-
           <fieldset>Localidade (Cidade + UF):</fieldset>
           <input class="localidade" type="text" title="Favor insira sua localidade!" required="required" placeholder="São Leopoldo - RS">
 

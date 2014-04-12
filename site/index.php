@@ -147,7 +147,7 @@
                </div>
 
             <button class="right top">
-               <a href="#" title="Ver Todas desta categoria">Ver Todas</a>
+               <a href="congregacoes.php" title="Ver Todas desta categoria">Ver Todas</a>
             </button>
          </div><!-- /section -->
       </section><!-- /section -->
