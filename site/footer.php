@@ -5,10 +5,10 @@
                   <ul>
                      <li style="margin-top: 10px;"><a title="Home" href="index.php">Home</a></li>
                      <li><a title="Igrejas" href="#">Igrejas</a> <span style="margin-left: 60px;"><a title="Igreja 01" href="#">Igreja -01</a></span> <span style="margin-left: 30px;"><a title="Igreja 02" href="#">Igreja -02</a></span> <span style="margin-left: 30px;"><a title="Outras" href="#">Outras</a></span></li>
-                     <li><a title="Eventos" href="#">Eventos</a></li>
-                     <li><a title="Galeria" href="#">Galeria</a> <span style="margin-left: 57px;"><a title="Fotos" href="#">Fotos</a></span> <span style="margin-left: 50px;"><a title="Videos" href="videos.php">Vídeos</a></span></li>
-                     <li><a title="Cultos" href="#">Cultos</a></li>
-                     <li><a title="Atendimento" href="#">Atendimento</a> <span style="margin-left: 26px;"><a title="Contato" href="#">Contato</a></span> <span style="margin-left: 37px;"><a title="Pedido de Oracao" href="#">Pedido de Oração</a></span></li>
+                     <li><a title="Eventos" href="eventos.php">Eventos</a></li>
+                     <li><a title="Galeria" href="fotos.php">Galeria</a> <span style="margin-left: 57px;"><a title="Fotos" href="fotos.php">Fotos</a></span> <span style="margin-left: 50px;"><a title="Videos" href="videos.php">Vídeos</a></span></li>
+                     <li><a title="Cultos" href="cultos.php">Cultos</a></li>
+                     <li><a title="Atendimento" href="contato.php">Atendimento</a> <span style="margin-left: 26px;"><a title="Contato" href="contato.php">Contato</a></span> <span style="margin-left: 37px;"><a title="Pedido de Oracao" href="pedido-oracao.php">Pedido de Oração</a></span></li>
                   </ul>
             </div>
 
@@ -52,23 +52,13 @@
       </footer><!--/footer-->
 
       <!-- javascript -->
-      <script src="_js/jquery.js"></script>
-      <script src="_js/cycle.js"></script>
-      <script src="_js/cycle_function.js"></script>
-      <script src="_js/jcarousel.js"></script>
-      <script src="_js/mask.js"></script>
-      <script src="_js/scripts.js"></script>
-
-<!--       <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=159788717565753";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      </script>
- -->
+      <script async src="_js/jquery.js"></script>
+      <script async src="_js/jcarousel.js"></script>
+      <script async src="_js/marcara.js"></script>
+      <script async src="_js/cycle.js"></script>
+      <script async src="_js/cycle_function.js"></script>
+      <script async src="_js/scripts.js"></script>
+      
       <!-- google analytics -->
       <!--<script>
         var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

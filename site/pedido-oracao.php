@@ -18,16 +18,16 @@
 
         <form action="#" method="post" name="formContato">
           <fieldset>Seu Nome:</fieldset>
-          <input type="text" title="Favor insira seu nome!" required="required" placeholder="Sidnei de Mello">
+          <input type="text" title="Favor insira seu nome!" required="required" maxlength="30" placeholder="Sidnei de Mello" onkeyup="proximoCampo(this, 'email');">
 
           <fieldset>E-mail:</fieldset>
-          <input type="email" title="Favor insira seu e-mail!" required="required" placeholder="sidnei@ieqr620.com.br">
+          <input placeholder="sidnei@ieqr620.com.br" required="required" type="email" id="email" name="email" maxlength="45" title="Favor insira seu e-mail!" onkeyup="proximoCampo(this, 'fone');">
 
           <fieldset>Localidade (Cidade + UF):</fieldset>
-          <input class="localidade" type="text" title="Favor insira sua localidade!" required="required" placeholder="São Leopoldo - RS">
+          <input class="localidade" onkeyup="proximoCampo(this, 'mensagem');" id="localidade" name="localidade" maxlength="45" type="text" title="Favor insira sua localidade!" required="required" placeholder="São Leopoldo - RS" onkeyup="proximoCampo(this, 'mensagem');">
 
-          <fieldset>Pedido de Oração:</fieldset>
-          <textarea name="mensagem" title="Ops! Acho que você esqueceu da sua mensagem!" required="required" placeholder="Mensagem:"></textarea>
+          <fieldset>Mensagem:</fieldset>
+          <textarea id="mensagem" maxlength="500" name="mensagem" required="required" placeholder="Mensagem:"></textarea>
           <input type="submit" title="Enviar Mensagem" value="Enviar">
         </form>
       </article><!-- /form contato -->

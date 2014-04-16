@@ -14,83 +14,83 @@
 		<h1 class="page-title">Congregações</h1>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto r">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto r">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto r">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto r">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
 
          <figure class="foto r">
-            <img title="foto" alt="" src="_images/galeria/fotos/photo.jpg">
+            <img title="foto" alt="" src="_images/galeria/fotos/photo.JPG">
          </figure>
    </section>
 		
